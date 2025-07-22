@@ -1,0 +1,8 @@
+# VS Code specific settings
+.vscode/**
+
+# GitHub Actions and CI
+.github/**
+
+# Git
+.gitignore
