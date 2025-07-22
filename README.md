@@ -52,14 +52,6 @@ This extension doesn't add any VS Code settings. It works automatically once act
 - The extension needs at least two different files to be opened before the alternate file switching becomes available
 - If you close a file that's being tracked, the extension will reset its tracking for that file
 
-## Release Notes
-
-### 0.0.1
-
-- Initial release
-- Basic file tracking functionality
-- Switch to alternate file command
-
 ---
 
 ## For more information
