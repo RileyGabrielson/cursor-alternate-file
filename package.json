@@ -2,7 +2,7 @@
   "name": "cursor-alternate-file",
   "displayName": "Cursor Alternate File",
   "description": "Quickly switch between the current file and the last visited file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/RileyGabrielson/cursor-alternate-file"
