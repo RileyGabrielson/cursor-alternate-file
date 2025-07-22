@@ -61,11 +61,6 @@ async function switchToAlternateFile() {
 		// Open the alternate file
 		const document = await vscode.workspace.openTextDocument(currentFile || '');
 		await vscode.window.showTextDocument(document);
-		
-		
-		vscode.window.showInformationMessage(`Switched to: ${currentFile}`);
-		vscode.window.showInformationMessage(`Alternate is now: ${alternateFile}`);
-		
 	} catch (error) {
 		vscode.window.showErrorMessage(`Failed to open alternate file: ${error}`);
 	}
